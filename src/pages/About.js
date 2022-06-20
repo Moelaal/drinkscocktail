@@ -1,6 +1,15 @@
 import React from 'react';
 
 const About = () => {
+  const hero = {
+    fname: 'mr x',
+    powerStrength: 200,
+  };
+  const abaility = {
+    ...hero,
+    sword: 'zeby',
+  };
+  console.log(abaility);
   return (
     <section className="section about-section">
       <h1 className="section-title">About page</h1>
