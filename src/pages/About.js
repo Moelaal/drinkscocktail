@@ -7,7 +7,7 @@ const About = () => {
   };
   const abaility = {
     ...hero,
-    sword: 'zeby',
+    sword: 'long arms',
   };
   console.log(abaility);
   return (
